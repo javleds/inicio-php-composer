@@ -1,0 +1,21 @@
+{
+  "name": "javleds/fabulosa-libreria",
+  "description": "Mi fabulosa librería",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Javier Ledezma",
+      "email": "contact@javierledezma.com"
+    }
+  ],
+  "version": "1.0",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Javleds\\FabulosaLibreria\\": "src/"
+    },
+    "files": [
+      "src/funciones_globales.php"
+    ]
+  }
+}
